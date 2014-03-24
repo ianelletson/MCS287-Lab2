@@ -130,6 +130,7 @@ public class FactorialTest {
 //        System.out.println(new Variable("f"));
 //        System.out.println(new Variable("FIVE"));
         System.out.println(sixMinusOne.toString());
+        System.out.println(fBody.toString());
 	}
 		
     private Expression getBody(){
