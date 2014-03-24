@@ -23,4 +23,9 @@ public class Application implements Expression {
         return fun.apply(operand.eval(env));
     }
     
+    @Override
+    public String toString() {
+    	// TODO
+    	return "(" + this.operator.toString() + " " + this.operand.toString() + ")";
+    }
 }

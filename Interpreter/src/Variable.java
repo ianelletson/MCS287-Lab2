@@ -16,4 +16,9 @@ public class Variable implements Expression {
     public Value eval(Environment env){
         return env.get(name);
     }
+    
+    @Override
+    public String toString() {
+    	return this.name;
+    }
 }

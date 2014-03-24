@@ -11,5 +11,11 @@ public class LetFun implements Expression {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	@Override
+	public String toString() {
+		// TODO
+		return "test";
+	}
 
 }

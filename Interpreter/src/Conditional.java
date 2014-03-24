@@ -29,4 +29,9 @@ public class Conditional implements Expression {
             return ifFalse.eval(env);
         }
     }
+    
+    @Override
+    public String toString() {
+    	return "if " + test.toString() + "then " + ifTrue.toString() + "else " + ifFalse.toString();
+    }
 }

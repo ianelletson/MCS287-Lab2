@@ -28,4 +28,9 @@ public class Constant implements Expression {
     public Value eval(Environment env){
         return value;
     }
+    
+    @Override
+    public String toString() {
+    	return this.value.toString();
+    }
 }
