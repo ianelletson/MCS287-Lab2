@@ -13,7 +13,7 @@ public class LetVal implements Expression {
 	@Override
 	public Value eval(Environment env) {
 		Value myVal = this.value.eval(env);
-		ActivationRecord act = new ActivationRecord(this.name, myVal, env);
+		Environment act = new ActivationRecord(this.name, myVal, env);
 		Value val = body.eval(act);
 		return val;
 	}
