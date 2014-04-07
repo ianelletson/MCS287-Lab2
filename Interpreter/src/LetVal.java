@@ -5,7 +5,6 @@ public class LetVal implements Expression {
 	private Expression body;
 
 	public LetVal(String name, Expression valueExpr, Expression bodyExpr) {
-		// TODO Auto-generated constructor stub
 		this.name = name;
 		this.value = valueExpr;
 		this.body = bodyExpr;
