@@ -123,15 +123,15 @@ public class FactorialTest {
 				);
 	}
 	
-//	@Test
-//	public void printer() {
+	@Test
+	public void printer() {
 //        System.out.println(fFive.toString());
 //        System.out.println(new Constant(1));
 //        System.out.println(new Variable("f"));
 //        System.out.println(new Variable("FIVE"));
 //        System.out.println(sixMinusOne.toString());
 //        System.out.println(fBody.toString());
-//	}
+	}
 		
     private Expression getBody(){
         // This produces the body of the function f,
